@@ -1,0 +1,30 @@
+Parameters :
+EndParameters
+State : Entry
+	Speed : 1.000000
+	Loop : 1
+	Pos : 500.000000 250.000000
+	Color : 0.200000 0.800000 0.200000 1.000000
+EndState
+State : AnyState
+	Speed : 1.000000
+	Loop : 1
+	Pos : 500.000000 500.000000
+	Color : 0.560000 0.006000 0.600000 1.000000
+EndState
+State : New State
+	Animation : assets/animations/ch30_1001@zombie running.anim
+	Speed : 1.000000
+	Loop : 1
+	Pos : 785.000000 272.000000
+	Color : 0.970000 0.469000 0.000000 1.000000
+EndState
+Link :
+	State 1 : Entry
+	State 2 : New State
+	HET : 1
+	ET : 0.750000
+	TD : 0.250000
+	Conditions :
+	EndConditions
+EndLink

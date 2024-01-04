@@ -1,0 +1,23 @@
+===
+GameObject
+718
+1
+===
+Transform
+0,0,0
+0,0,0,1
+1,1,1
+end
+0
+pp_tree_02_5
+basecomp
+===
+Mesh Component
+assets/modeltest/levelmap3.obj
+assets/modeltest/levelmap3.obj:pp_tree_02_5
+===
+Material
+assets/modeltest/pp_standard_material.mat
+end
+childrens
+end

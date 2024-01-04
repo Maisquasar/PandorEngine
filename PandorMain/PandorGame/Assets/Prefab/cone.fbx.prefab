@@ -1,0 +1,23 @@
+===
+GameObject
+0
+1
+===
+Transform
+0,0,0
+0,0,0,1
+1,1,1
+end
+0
+cone.fbx
+basecomp
+===
+Mesh Component
+assets/models/cone.fbx
+assets/models/cone.fbx:cone
+===
+Material
+engineresources/models/zaxis.mat
+end
+childrens
+end

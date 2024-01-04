@@ -1,0 +1,29 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>netstandard2.1</TargetFramework>
+		<RootNamespace>Pandor</RootNamespace>
+		<Configurations>Debug;Release;Game;Game Debug</Configurations>
+	</PropertyGroup>
+
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+		<OutputPath>../PandorMain/Resources/Scripts</OutputPath>
+	</PropertyGroup>
+
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Game Debug|AnyCPU'">
+	  <OutputPath>../PandorMain/Resources/Scripts</OutputPath>
+	</PropertyGroup>
+
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+		<OutputPath>../PandorMain/Resources/Scripts</OutputPath>
+	</PropertyGroup>
+
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Game|AnyCPU'">
+	  <OutputPath>../PandorMain/Resources/Scripts</OutputPath>
+	</PropertyGroup>
+
+	<PropertyGroup>
+		<UseMultiCore>true</UseMultiCore>
+	</PropertyGroup>
+
+</Project>

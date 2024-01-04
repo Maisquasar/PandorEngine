@@ -1,0 +1,23 @@
+===
+GameObject
+0
+1
+===
+Transform
+0,0,0
+-0.707107,0,0,0.707107
+5,5,5
+end
+0
+AXE
+basecomp
+===
+Mesh Component
+assets/models/axefbx.fbx
+assets/models/axefbx.fbx:axe0326
+===
+Material
+assets/models/main.mat
+end
+childrens
+end

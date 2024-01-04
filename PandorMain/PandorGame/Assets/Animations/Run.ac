@@ -1,0 +1,60 @@
+Parameters :
+ShouldRun: 0
+EndParameters
+State : Entry
+	Speed : 1.000000
+	Loop : 1
+	Pos : 117.923080 224.307739
+	Color : 0.200000 0.800000 0.200000 1.000000
+EndState
+State : Any State
+	Speed : 1.000000
+	Loop : 1
+	Pos : 409.692291 216.307755
+	Color : 0.560000 0.006000 0.600000 1.000000
+EndState
+State : Walk
+	Animation : assets/animations/walking.anim
+	Speed : 1.000000
+	Loop : 1
+	Pos : 142.615387 370.923126
+	Color : 0.970000 0.469000 0.000000 1.000000
+EndState
+State : Run
+	Animation : assets/animations/running.anim
+	Speed : 1.000000
+	Loop : 1
+	Pos : 349.307678 378.461609
+	Color : 0.970000 0.469000 0.000000 1.000000
+EndState
+Link :
+	State 1 : Entry
+	State 2 : Walk
+	HET : 0
+	ET : 0.750000
+	TD : 0.250000
+	Conditions :
+	EndConditions
+EndLink
+Link :
+	State 1 : Any State
+	State 2 : Run
+	HET : 0
+	ET : 0.750000
+	TD : 0.250000
+	Conditions :
+		ShouldRun
+		1
+	EndConditions
+EndLink
+Link :
+	State 1 : Run
+	State 2 : Walk
+	HET : 0
+	ET : 0.750000
+	TD : 0.250000
+	Conditions :
+		ShouldRun
+		0
+	EndConditions
+EndLink

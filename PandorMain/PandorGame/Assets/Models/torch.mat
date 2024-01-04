@@ -1,0 +1,9 @@
+Shader : engineresources/shaders/pbr
+Texture : assets/models/torch_basecolor.png
+NM : assets/models/torch_normal.png
+RM : assets/models/torch_roughness.png
+MM : assets/models/torch_metallic.png
+Ambient : 0.607843 0.607843 0.607843 1.000000
+Diffuse : 0.588000 0.588000 0.588000 1.000000
+Specular : 1.000000 1.000000 1.000000 1.000000
+Shininess : 32.000000
